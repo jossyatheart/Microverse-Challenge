@@ -8,19 +8,32 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
+    <h1 id="title"> Survey form for Onyeka and Hassaan</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur soluta rem voluptatem autem ab quis, eum blanditiis quasi quae inventore ratione nam laborum culpa aliquid ullam distinctio magnam consectetur.</p>
+    <form action="" id="Survey-form">
+    <label for="name" id="name-label">Name</label>
+      <input type="name" id="name" placeholder="Input your Name" ><br>
+      <label for="email" id="email-label"> email </label>
+      <input type="email" name="email" id="email" placeholder="Input yor email address" required><br>
+      <label for="number" id="number-label" >Age</label>
+      <input type="number" name="number" min="12" max="16" id="number" placeholder="Input number"><br>
+      
+    <select name="select" id="dropdown"><Option value="Project"> Project </Option>
+      <Option value="Age group"> Age group </Option>
+    </select>
+    <div>
+      <input type="radio" name="name" value="radio"  id=""><br>
+      <input type="radio" name="name" value="radio" >
+    </div>
+    <div>
+      <input type="checkbox" name="click" value="Survey-form"  id=""><br>
+      <input type="checkbox" name="click" value="Survey-form"  id="">
+
+    </div>
+    <textarea name="name" id="textarea" cols="30" rows="10"></textarea>
+    <button type="submit" id="submit" >Submit</button>
+
+    </form>
   </body>
 </html>
